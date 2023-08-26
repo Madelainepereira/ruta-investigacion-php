@@ -116,4 +116,14 @@ $txt = "W3Schools.com";
 echo "I love $txt!";
 ?>
 
-¿Cómo declarar funciones en PHP?
+- ¿Cómo declarar funciones en PHP?
+
+// Declarar
+function nombre_de_funcion(tipo_de_parametro $parametros): tipo_return
+{
+    ...
+    return ...;
+}
+
+// Llamar
+nombre_de_funcion($parametros);
